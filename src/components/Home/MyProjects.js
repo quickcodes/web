@@ -24,7 +24,7 @@ export default function MyProjects() {
             </div>
             {/* Body area  */}
             <div
-              className="col-9"
+              className="col-9 custom-border"
               style={{ minWidth: "400px" }}
             >
               {/* -------------------------------------------------------------------- */}
