@@ -34,7 +34,7 @@ export default function Header(){
             <b>[</b>/my-github-repos &#128008;&#8205;&#11035;<b>]</b>
           </a>
           <a href="#/education">
-            <b>[</b>/education &#128187;<b>]</b>
+            <b>[</b>/education &#128214;<b>]</b>
           </a>
           <a href="#/upcoming-stuff">
             <b>[</b>/upcoming-stuff &#128302;<b>]</b>

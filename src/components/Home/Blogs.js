@@ -48,7 +48,7 @@ export default function Blogs() {
                         style={{ minWidth: "300px" }}
                       >
                         {/* add image here  */}
-                        <img src="images/1169.jpg" />
+                        <img src="images/1095.jpg" />
                       </div>
                       <div
                         className="col-7 pt-3"

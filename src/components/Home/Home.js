@@ -48,7 +48,7 @@ export default function Home() {
                       style={{ minWidth: "300px" }}
                     >
                       {/* add image here  */}
-                      <img src="images/1023.jpg" />
+                      <img src="images/1237.jpg" />
                     </div>
                     <div
                       className="col-7 pt-3"
