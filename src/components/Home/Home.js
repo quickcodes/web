@@ -45,14 +45,14 @@ export default function Home() {
                   <div className="row">
                     <div
                       className="col-5"
-                      style={{ minWidth: "150px" }}
+                      style={{ minWidth: "300px" }}
                     >
                       {/* add image here  */}
-                      <img src="images/1227.jpg"/>
+                      <img src="images/1041.jpg"/>
                     </div>
                     <div
                       className="col-7 pt-3"
-                      style={{ minWidth: "150px" }}
+                      style={{ minWidth: "300px" }}
                     >
                       {/* Text area  */}
                       <h2 className="text-green coding-font style-h2">
