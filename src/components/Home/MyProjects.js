@@ -7,7 +7,7 @@ export default function MyProjects() {
         <div className="container mt-5 ml-5 mr-5">
           <div className="row">
             <div
-              className="col-3 border border-primary w-30 p-3 my-5"
+              className="col-3 w-30 p-3 my-5"
               style={{ minWidth: "250px" }}
             >
               {/* -------------------------------------------------------------------- */}
@@ -24,12 +24,12 @@ export default function MyProjects() {
             </div>
             {/* Body area  */}
             <div
-              className="col-9 border border-primary"
+              className="col-9"
               style={{ minWidth: "400px" }}
             >
               {/* -------------------------------------------------------------------- */}
               <div className="container">
-                <div className="col border border-alert p-0 pb-0">
+                <div className="col p-0 pb-0">
                   <h1 className="p-0 m-0 coding-font text-white">
                     <b>hi i'm dhruv</b>
                   </h1>
@@ -40,18 +40,18 @@ export default function MyProjects() {
                     Life is too short to argue, just say F@ck U and move on
                   </p>
                 </div>
-                <div className="col mx-auto border border-alert py-5">
+                <div className="col mx-auto py-5">
                   <div className="container">
                     <div className="row">
                       <div
-                        className="col-5 border border-primary"
+                        className="col-5"
                         style={{ minWidth: "300px" }}
                       >
                         {/* add image here  */}
                         <img src="images/1071.jpg" />
                       </div>
                       <div
-                        className="col-7 border border-primary pt-3"
+                        className="col-7 pt-3"
                         style={{ minWidth: "300px" }}
                       >
                         {/* Text area  */}
