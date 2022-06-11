@@ -22,12 +22,12 @@ export default function App() {
         <Route path="education" element={ <Education/> } />
         <Route path="blogs" element={ <Blogs/> } />
         <Route path="my-github-repos" element={ <MyGithubRepos/> } />
-        <Route path="quickcodes-web-react" element={ <Home/> } />
         <Route path="fuck-u" element={ <FuckU/> } />
         <Route path="bad-words" element={ <BadWords/> } />
         <Route path="my-projects" element={ <MyProjects/> } />
         <Route path="upcoming-stuff" element={ <UpcomingStuff/> } />
         {/* <Route path="github" element={ <Github/> } /> */}
+        <Route path="web" element={ <Home/> } />
       </Routes>
     </div>
   );
