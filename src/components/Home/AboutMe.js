@@ -56,7 +56,7 @@ export default function AboutMe() {
                     >
                       {/* Text area  */}
 
-                      <h2 className="start green coding-font style-h2">
+                      <h2 className="text-green coding-font style-h2">
                         What more do you wanna know about me?
                       </h2>
                       <p
@@ -85,7 +85,7 @@ export default function AboutMe() {
                 </div>
 
                 
-                <p className="text-white  coding-font mt-2"
+                <p className="text-green  coding-font mt-2"
                         style={{ fontSize: "medium" }}>
                   What defines me is that i like to live a minimal life. where
                   no continous blotted &amp; shity notifications are comming to

@@ -56,7 +56,7 @@ export default function Blogs() {
                       >
                         {/* Text area  */}
   
-                        <h2 className="start green coding-font style-h2">
+                        <h2 className="text-green coding-font style-h2">
                             /blogs
                         </h2>
                         <p

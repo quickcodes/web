@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="container">
                   <div className="row">
                     <div
-                      className="col-5 mr-2"
+                      className="col-5"
                       style={{ minWidth: "300px" }}
                     >
                       {/* add image here  */}
@@ -55,7 +55,7 @@ export default function Home() {
                       style={{ minWidth: "300px" }}
                     >
                       {/* Text area  */}
-                      <h2 className="start green coding-font style-h2">
+                      <h2 className="text-green coding-font style-h2">
                         /home
                       </h2>
                       <p

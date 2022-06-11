@@ -54,8 +54,8 @@ export default function Header(){
           <b>[</b>contact<b>]</b>
         </div>
 
-        <div className="main-text">dhruvcodes7220@gmail.com</div>
-        <p>To get best experience use big screen</p>
+        <div className="main-text text-green">dhruvcodes7220@gmail.com</div>
+        <p className="text-green">To get best experience use big screen</p>
       </div>
 
     );

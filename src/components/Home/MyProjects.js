@@ -56,7 +56,7 @@ export default function MyProjects() {
                       >
                         {/* Text area  */}
   
-                        <h2 className="start green coding-font style-h2">
+                        <h2 className="text-green coding-font style-h2">
                           /my-projects
                         </h2>
                         <p

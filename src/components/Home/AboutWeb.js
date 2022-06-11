@@ -56,7 +56,7 @@ export default function AboutWeb() {
                     >
                       {/* Text area  */}
 
-                      <h2 className="start green coding-font style-h2">
+                      <h2 className="text-green coding-font style-h2">
                         /about-web
                       </h2>
                       <p
@@ -102,7 +102,7 @@ export default function AboutWeb() {
                   intractive, fast, and just provide you a recipe. You will
                   definately gonna choose the second one. right?
                 </p>
-                <h2 className="coding-font">
+                <h2 className="coding-font text-green">
                   Still think it is ugly? <a href="#/bad-words">click Here</a>
                 </h2>
               </div>
