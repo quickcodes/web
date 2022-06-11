@@ -40,7 +40,7 @@ export default function AboutMe() {
                   Life is too short to argue, just say F@ck U and move on
                 </p>
               </div>
-              <div className="col mx-auto py-5">
+              <div className="col mx-auto py-5 custom-border">
                 <div className="container">
                   <div className="row">
                     <div
