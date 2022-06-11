@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom"
+import AboutMe from "./components/Home/AboutMe";
+import AboutWeb from "./components/Home/AboutWeb";
+import BadWords from "./components/Home/BadWords";
+import Blogs from "./components/Home/Blogs";
+import Home from "./components/Home/Home";
+import MyProjects from "./components/Home/MyProjects";
+import Education from "./components/projects/Education";
+import FuckU from "./components/projects/FuckU";
+import MyGithubRepos from "./components/projects/MyGithubRepos";
+import UpcomingStuff from "./components/projects/UpcomingStuff";
+import './style.css'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="home" element={ <Home/> } />
+        <Route path="about-web" element={ <AboutWeb/> } />
+        // <Route path="about-me" element={ <AboutMe/> } />
+        <Route path="education" element={ <Education/> } />
+        <Route path="blogs" element={ <Blogs/> } />
+        <Route path="my-github-repos" element={ <MyGithubRepos/> } />
+        <Route path="quickcodes-web-react" element={ <Home/> } />
+        <Route path="fuck-u" element={ <FuckU/> } />
+        <Route path="bad-words" element={ <BadWords/> } />
+        <Route path="my-projects" element={ <MyProjects/> } />
+        <Route path="upcoming-stuff" element={ <UpcomingStuff/> } />
+        {/* <Route path="github" element={ <Github/> } /> */}
+      </Routes>
     </div>
   );
 }
-
-export default App;
