@@ -62,6 +62,10 @@ export default function Blogs() {
                         <p
                           className="text-white coding-font"
                           style={{ fontSize: "medium" }}
+                        >Uploading soon</p>
+                        {/* <p
+                          className="text-white coding-font"
+                          style={{ fontSize: "medium" }}
                         >
                           When someone asks{" "}
                           <span className="bg-color-custom">
@@ -79,7 +83,7 @@ export default function Blogs() {
                           <span className="text-primary"> $CITY. </span>
                           But Putting variables in a shity old 90's line will not
                           define who you are right?
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
