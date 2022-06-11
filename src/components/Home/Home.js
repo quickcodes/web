@@ -44,11 +44,11 @@ export default function Home() {
                 <div className="container">
                   <div className="row">
                     <div
-                      className="col-5"
+                      className="col-5 mr-2"
                       style={{ minWidth: "300px" }}
                     >
                       {/* add image here  */}
-                      <img src="images/1227.jpg" className="mr-2" />
+                      <img src="images/1227.jpg"/>
                     </div>
                     <div
                       className="col-7 pt-3"

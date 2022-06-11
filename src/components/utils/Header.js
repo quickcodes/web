@@ -55,6 +55,7 @@ export default function Header(){
         </div>
 
         <div className="main-text">dhruvcodes7220@gmail.com</div>
+        <p>To get best experience use big screen</p>
       </div>
 
     );
