@@ -39,9 +39,12 @@ export default function Header(){
           <a href="#/upcoming-stuff">
             <b>[</b>/upcoming-stuff &#128302;<b>]</b>
           </a>
-          <a href="#/fuck-u">
-            <b>[</b>/f@ck-u &#128405;<b>]</b>
+          <a href="#/upcoming-stuff">
+            <b>[</b>/books-quotes &#128302;<b>]</b>
           </a>
+          {/* <a href="#/fuck-u">
+            <b>[</b>/f@ck-u &#128405;<b>]</b>
+          </a> */}
           {/* <a
             href="#/xcrap/saticon.html"
            

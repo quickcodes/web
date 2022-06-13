@@ -39,6 +39,7 @@ a:hover{
   padding: 0px;
   /* border: 1px solid white; */
   font-weight: 700;
+  margin-left: 20px;
 }
 .menu:hover .title {
   color: #ff0000 !important;

@@ -58,12 +58,12 @@ export default function MyGithubRepos() {
                 <p className="main-text coding-font h1">
                   Github section is under construction
                 </p>
-                <p className="main-text coding-font">
+                {/* <p className="main-text coding-font">
                   This is a place where I show my interests, express my <span className="bg-color-custom">thoughts</span>
                   &nbsp;and opinions on various topics with hopes of improving my skills of putting them into writing. I choose to build a
                   website for this because of the <span className="bg-color-custom">freedom</span> that a personal webpage
                   offers.
-                </p>
+                </p> */}
                 </div>
                 
                 </div>
