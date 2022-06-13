@@ -63,7 +63,9 @@ export default function ChatBot() {
             things now.
           </b>{" "}
           I wirte some features in my Github repo's readme.me file also
-          <a>click here</a> to read them. You can also check full code also.
+          <a 
+            href="https://github.com/quickcodes/Grace"
+            target="_blank" >click here</a> to read them. You can also check full code also.
         </p>
       </div>
     </div>
