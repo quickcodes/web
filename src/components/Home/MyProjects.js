@@ -74,7 +74,7 @@ export default function MyProjects() {
                 </div>
 
                 {/* oter text  */}
-                <div className="coding-font text-white">
+                <div className="coding-font text-white mt-2">
                   <h1 className="text-green">Projects and experience</h1>
                   <blockquote class="blockquote">
                     <p class="mb-0">
