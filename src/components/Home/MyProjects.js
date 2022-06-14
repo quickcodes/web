@@ -1,8 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../utils/Header";
 import ChatBot from "./ProjectList/ChatBot";
+import Web from "./ProjectList/Web";
 
 export default function MyProjects() {
+  const project_data = [
+    {app: <ChatBot />},
+    {app: <Web />},
+  ];
+
+  const [current, setCurrent] = useState(0);
+  const length = project_data.length;
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
+
+  if (!Array.isArray(project_data) || project_data.length <= 0) {
+    return null;
+  }
+
   return (
     <div>
       <div className="container mt-5 ml-5 mr-5">
@@ -78,15 +99,46 @@ export default function MyProjects() {
                   <h1 className="text-green">Projects and experience</h1>
                   <blockquote class="blockquote">
                     <p class="mb-0">
-                    If you are always at the head of the class, then you're in the wrong class.
+                      If you are always at the head of the class, then you're in
+                      the wrong class.
                     </p>
                     <footer class="blockquote-footer">
                       John C Maxwell{" "}
                       {/* <cite title="Source Title">Source Title</cite> */}
                     </footer>
                   </blockquote>
-                  <ChatBot/>
+                  <span className="custom-border p-2 my-2" style={{fontSize: 'large'}}><a href="#/my-projects">chatbot</a></span>
+                  <div className="my-1"><ChatBot /></div>
                   
+
+                  {/* -------------------------------------------------------------------- */}
+                  {/* -------------------------------------------------------------------- */}
+                  {/* -------------------------------------------------------------------- */}
+                  {/* -------------------------------------------------------------------- */}
+
+                  {/* <section className='slider'>
+              <button className='left-arrow' onClick={prevSlide} />
+              <button className='right-arrow' onClick={nextSlide} />
+              {project_data.map((slide, index) => {
+                return (
+                  <div style={{display: "flex", border: "1px solid red"}}>
+{slide.app}
+                  </div>
+                  
+                );
+              })}
+            </section> */}
+
+                  <>
+                    {/* data = project_data.at(0).proj */}
+
+                    {/* <{project_data.at(0).proj}/> */}
+                  </>
+
+                  {/* -------------------------------------------------------------------- */}
+                  {/* -------------------------------------------------------------------- */}
+                  {/* -------------------------------------------------------------------- */}
+                  {/* -------------------------------------------------------------------- */}
                 </div>
                 {/* <p className="text-white  coding-font mt-2"
                           style={{ fontSize: "medium" }}>

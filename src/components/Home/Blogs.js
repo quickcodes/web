@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../utils/Header";
+import Coding from "./BlogList/Coding";
 
 export default function Blogs() {
     return (
@@ -89,25 +90,20 @@ export default function Blogs() {
                   </div>
   
                   {/* oter text  */}
-                  {/* <p className="text-white  coding-font mt-2"
-                          style={{ fontSize: "medium" }}>
-                    What defines me is that i like to live a minimal life. where
-                    no continous blotted &amp; shity notifications are comming to
-                    my phone.
-                  </p>
-  
-                  <p className="text-white  coding-font"
-                          style={{ fontSize: "medium" }}>
-                    To give you a quick overview of subjects this site features
-                    now, or will feature in the future, here's a list of things I
-                    am interested in -
-                    <ul className="">
-                      <li>Linux Stuffs.</li>
-                      <li>Basic fundamentals of coding.</li>
-                      <li>Web and App Developement.</li>
-                      <li>Basics of DataBase.</li>
-                    </ul>
-                  </p> */}
+                {/* oter text  */}
+                <div className="coding-font text-white mt-2">
+                  <h1 className="text-green">Here are my Blogs and thoughts</h1>
+                  <blockquote class="blockquote">
+                    <p class="mb-0">
+                    If you are far away from yourself, how could you ever be close to another?
+                    </p>
+                    <footer class="blockquote-footer">
+                      yung pueblo{" "}
+                      {/* <cite title="Source Title">Source Title</cite> */}
+                    </footer>
+                  </blockquote>
+                  <Coding/>
+                </div>
 
                 </div>
               </div>
