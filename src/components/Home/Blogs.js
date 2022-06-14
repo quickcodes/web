@@ -60,10 +60,10 @@ export default function Blogs() {
                         <h2 className="text-green coding-font style-h2">
                             /blogs
                         </h2>
-                        <p
+                        {/* <p
                           className="text-white coding-font"
                           style={{ fontSize: "medium" }}
-                        >Uploading soon</p>
+                        >Uploading soon</p> */}
                         {/* <p
                           className="text-white coding-font"
                           style={{ fontSize: "medium" }}
@@ -92,7 +92,7 @@ export default function Blogs() {
                   {/* oter text  */}
                 {/* oter text  */}
                 <div className="coding-font text-white mt-2">
-                  <h1 className="text-green">Here are my Blogs and thoughts</h1>
+                  <h1 className="text-green">Blogs and thoughts</h1>
                   <blockquote class="blockquote">
                     <p class="mb-0">
                     If you are far away from yourself, how could you ever be close to another?
