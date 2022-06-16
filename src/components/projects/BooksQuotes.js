@@ -33,21 +33,19 @@ export default function BooksQuotes() {
                         className="text-white coding-font"
                         style={{ fontSize: "large" }}
                       >
-                        Reading books will never improve you until you start
-                        imiplementing it.
+                        A fine quotation is a diamond on the finger fo a man of wit, and a pebble in the hand of fool.
                       </p>
-                      <p
+                      {/* <p
                         className="text-white coding-font"
                         style={{ fontSize: "medium" }}
                       >
-                        Reading full book is long process, Reading Quotes of it
-                        is small process.
-                        {/* <span className="bg-color-custom">
+                        A fine quotation is a diamond on the finger fo a man of wit, and a pebble in the hand of fool.
+                        <span className="bg-color-custom">
                             Tell me about yourself?
                           </span>{" "}
                           It almost feels like someone allowed me to sing an old
-                          song. Same lyrics with some variables in it. */}
-                      </p>
+                          song. Same lyrics with some variables in it.
+                      </p> */}
                       {/* <p className="text-white  coding-font"
                           style={{ fontSize: "medium" }}>
                           Maybe you are expecting somthing like - My name is
@@ -69,7 +67,7 @@ export default function BooksQuotes() {
 
                   <div>
                     <blockquote class="blockquote">
-                      <p class="mb-0">Attitude is Everything</p>
+                      <p class="mb-0">Book: <span className="bg-color-custom">Attitude is Everything</span></p>
                       <footer class="blockquote-footer">
                         Jeff keller{" "}
                         {/* <cite title="Source Title">Source Title</cite> */}
