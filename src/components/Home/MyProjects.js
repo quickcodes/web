@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "../utils/Header";
 import ChatBot from "./ProjectList/ChatBot";
 import Web from "./ProjectList/Web";
+import HeaderIntro from "../HeaderIntro";
 
 export default function MyProjects() {
   const project_data = [
@@ -45,17 +46,7 @@ export default function MyProjects() {
           <div className="col-9" style={{ minWidth: "400px" }}>
             {/* -------------------------------------------------------------------- */}
             <div className="container">
-              <div className="col p-0 pb-0">
-                <h1 className="p-0 m-0 coding-font text-white">
-                  <b>hi i'm dhruv</b>
-                </h1>
-                <p
-                  className="text-white coding-font"
-                  style={{ fontSize: "16px" }}
-                >
-                  Life is too short to argue, just say F@ck U and move on
-                </p>
-              </div>
+              <HeaderIntro/>
               <div className="col mx-auto py-5 custom-border">
                 <div className="container">
                   <div className="row">

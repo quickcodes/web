@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../utils/Header";
+import HeaderIntro from "../HeaderIntro";
 
 export default function UpcomingStuff() {
   return (
@@ -29,17 +30,7 @@ export default function UpcomingStuff() {
 
             {/* -------------------------------------------------------------------- */}
             <div className="container">
-              <div className="col border border-alert p-0 pb-0">
-                <h1 className="p-0 m-0 coding-font text-white">
-                  <b>hi i'm dhruv</b>
-                </h1>
-                <p
-                  className="text-white coding-font"
-                  style={{ fontSize: "16px" }}
-                >
-                  Life is too short to argue, just say F@ck U and move on
-                </p>
-              </div>
+              <HeaderIntro/>
               <div className="col mx-auto border border-alert py-5">
                 
               <div className="container">
