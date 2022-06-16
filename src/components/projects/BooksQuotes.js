@@ -63,7 +63,7 @@ export default function BooksQuotes() {
                 {/* oter text  */}
                 {/* oter text  */}
                 <div className="coding-font text-white mt-2">
-                  <h1 className="text-green">printf([Books].Quotes);</h1>
+                  <h1 className="text-green">print([Books].Quotes);</h1>
 
                   <div>
                     <blockquote class="blockquote">
