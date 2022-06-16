@@ -5,6 +5,7 @@ import BadWords from "./components/Home/BadWords";
 import Blogs from "./components/Home/Blogs";
 import Home from "./components/Home/Home";
 import MyProjects from "./components/Home/MyProjects";
+import BooksQuotes from "./components/projects/BooksQuotes";
 import Education from "./components/projects/Education";
 import FuckU from "./components/projects/FuckU";
 import MyGithubRepos from "./components/projects/MyGithubRepos";
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="bad-words" element={ <BadWords/> } />
         <Route path="my-projects" element={ <MyProjects/> } />
         <Route path="upcoming-stuff" element={ <UpcomingStuff/> } />
+        <Route path="books-quotes" element={ <BooksQuotes/> } />
         {/* <Route path="github" element={ <Github/> } /> */}
         <Route path="web" element={ <Home/> } />
       </Routes>

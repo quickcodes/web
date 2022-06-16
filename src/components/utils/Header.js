@@ -39,7 +39,7 @@ export default function Header(){
           <a className='animated-a' href="#/upcoming-stuff">
             <b>[</b>/upcoming-stuff &#128302;<b>]</b>
           </a>
-          <a className='animated-a' href="#/upcoming-stuff">
+          <a className='animated-a' href="#/books-quotes">
             <b>[</b>/books-quotes &#128302;<b>]</b>
           </a>
           {/* <a className='animated-a' href="#/fuck-u">

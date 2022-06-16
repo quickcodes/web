@@ -37,7 +37,7 @@ export default function Home() {
                   className="text-white coding-font"
                   style={{ fontSize: "16px" }}
                 >
-                  Life is too short to argue, just say F@ck Off and move on
+                  Expect Nothing and you'll become unstopable.
                 </p>
               </div>
               <div className="col mx-auto py-5 custom-border">
@@ -63,7 +63,7 @@ export default function Home() {
                         style={{ fontSize: "medium" }}
                       >
                         I am <span className="bg-color-custom">Dhruv Soni</span>
-                        , aka quickcodes. I am a 19 old guy from{" "}
+                        , aka dhruvcodes. I am a 19 old guy from{" "}
                         <span className="bg-color-custom">India</span>, who
                         loves Computers and Softwares. I am also a Computer
                         Science Student and{" "}
