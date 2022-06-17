@@ -35,27 +35,6 @@ export default function StoryOfBird() {
                       >
                         A true story of someone, somewhere on earth.
                       </p>
-                      {/* <p
-                        className="text-white coding-font"
-                        style={{ fontSize: "medium" }}
-                      >
-                        A fine quotation is a diamond on the finger fo a man of wit, and a pebble in the hand of fool.
-                        <span className="bg-color-custom">
-                            Tell me about yourself?
-                          </span>{" "}
-                          It almost feels like someone allowed me to sing an old
-                          song. Same lyrics with some variables in it.
-                      </p> */}
-                      {/* <p className="text-white  coding-font"
-                          style={{ fontSize: "medium" }}>
-                          Maybe you are expecting somthing like - My name is
-                          <span className="text-primary"> $FULL_NAME </span>I am
-                          <span className="text-primary"> $PROFESSION </span>
-                          and i live in
-                          <span className="text-primary"> $CITY. </span>
-                          But Putting variables in a shity old 90's line will not
-                          define who you are right?
-                        </p> */}
                     </div>
                   </div>
                 </div>
@@ -95,6 +74,13 @@ export default function StoryOfBird() {
                         kone m rakh kr apni life m vyasth hogya.
                       </p>
 
+
+                <div className="container">
+                  <div className="row">
+                    <div className="col-7 pt-3" style={{ minWidth: "300px" }}>
+                      {/* Text area  */}
+
+                      
                       <p className="custom-border p-2">
                         kai din nikal gye, dekhte hi dekhte mahine nikalne lage
                         vo chidiya tadapti rahi, fatfadati rahi us pinjre m apna
@@ -109,6 +95,14 @@ export default function StoryOfBird() {
                         kri apni us insan se milne ki jo vo kr skti thi. Pr vo insan 
                         ko to us chidiya ki khabar tk nhi thi. ya mano voto bhul sa gya tha...
                       </p>
+
+                    </div>
+                    <div className="col-5" style={{ minWidth: "300px" }}>
+                      {/* add image here  */}
+                      <img src="images/1248.jpg" />
+                    </div>
+                  </div>
+                </div>
 
 
                       <p className="custom-border p-2">
@@ -129,6 +123,19 @@ export default function StoryOfBird() {
                       </p>
 
 
+
+
+
+                      <div className="container">
+                  <div className="row">
+                    <div className="col-5" style={{ minWidth: "300px" }}>
+                      {/* add image here  */}
+                      <img src="images/1246.jpg" />
+                    </div>
+                    <div className="col-7 pt-3" style={{ minWidth: "300px" }}>
+                      {/* Text area  */}
+
+
                       <p className="custom-border p-2">
                         vo insan jab us chidiya ko lakdi se hila kr dekh rha tha tabh usne us chidiya se kha
                         ki m to tumhara intzaar kr rha tha ki tum mujhe ek baar bulati to shi... m ajataa
@@ -141,7 +148,14 @@ export default function StoryOfBird() {
                       </p>
 
 
-                      <p className="custom-border p-2">
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <p className="custom-border p-2">
                         Shayad yhi us chidya ki asli kimat h ki ushe bas insan k matlab k leye rakha jata h.
                         uski feelings ki koi kadr nhi hoti, ushe jab marzi cahe pinjre m kaid kra jaa skta h.
                         jab marzi cahe uske zakhmo ko taza kra ja skta h.  
@@ -155,7 +169,7 @@ export default function StoryOfBird() {
 
 
                       <p className="custom-border p-2 h2">
-                        Aapke kitmi samay ko is blog pr lagane k leye bohot bohot shukriya.
+                        Aapke kitmi samay k leye bohot bohot shukriya.
                       </p>
 
                     </div>
