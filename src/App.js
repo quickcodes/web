@@ -8,6 +8,7 @@ import MyProjects from "./components/Home/MyProjects";
 import BooksQuotes from "./components/projects/BooksQuotes";
 import Education from "./components/projects/Education";
 import FuckU from "./components/projects/FuckU";
+import StoryOfBird from "./components/projects/StoryOfBird";
 import MyGithubRepos from "./components/projects/MyGithubRepos";
 import UpcomingStuff from "./components/projects/UpcomingStuff";
 import './style.css'
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="upcoming-stuff" element={ <UpcomingStuff/> } />
         <Route path="books-quotes" element={ <BooksQuotes/> } />
         {/* <Route path="github" element={ <Github/> } /> */}
+        <Route path="story-of-bird" element={ <StoryOfBird/> } />
         <Route path="web" element={ <Home/> } />
       </Routes>
     </div>
