@@ -168,7 +168,7 @@ export default function StoryOfBird() {
                       </p>
 
 
-                      <p className="custom-border p-2 h2">
+                      <p className="text-green custom-border p-2 h2">
                         Aapke kitmi samay k leye bohot bohot shukriya.
                       </p>
 
