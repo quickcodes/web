@@ -12,6 +12,10 @@ import StoryOfBird from "./components/projects/StoryOfBird";
 import MyGithubRepos from "./components/projects/MyGithubRepos";
 import UpcomingStuff from "./components/projects/UpcomingStuff";
 import './style.css'
+import ChatBot from "./components/Home/ProjectList/ChatBot";
+import Notflix from "./components/Home/ProjectList/Notflix";
+import Coding from "./components/Home/BlogList/Coding";
+import Linux from "./components/Home/BlogList/Linux";
 
 export default function App() {
   return (
@@ -22,15 +26,27 @@ export default function App() {
         <Route path="about-web" element={ <AboutWeb/> } />
         // <Route path="about-me" element={ <AboutMe/> } />
         <Route path="education" element={ <Education/> } />
-        <Route path="blogs" element={ <Blogs/> } />
         <Route path="my-github-repos" element={ <MyGithubRepos/> } />
         <Route path="fuck-u" element={ <FuckU/> } />
         <Route path="bad-words" element={ <BadWords/> } />
-        <Route path="my-projects" element={ <MyProjects/> } />
         <Route path="upcoming-stuff" element={ <UpcomingStuff/> } />
+
+
+        <Route path="my-projects" element={ <MyProjects/> } />
+        <Route path="my-projects/chatbot" element={ <ChatBot/> } />
+        <Route path="my-projects/notflix" element={ <Notflix/> } />
+
         <Route path="books-quotes" element={ <BooksQuotes/> } />
+        <Route path="books-quotes/attitude-is-everything" element={ <BooksQuotes/> } />
+
+
+        <Route path="blogs" element={ <Blogs/> } />
+        <Route path="blogs/coding" element={ <Coding/> } />
+        <Route path="blogs/linux" element={ <Linux/> } />
+
+        
         {/* <Route path="github" element={ <Github/> } /> */}
-        <Route path="story-of-bird" element={ <StoryOfBird/> } />
+        {/* <Route path="story-of-bird" element={ <StoryOfBird/> } /> */}
         <Route path="web" element={ <Home/> } />
       </Routes>
     </div>

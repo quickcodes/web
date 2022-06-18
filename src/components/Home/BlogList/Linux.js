@@ -1,9 +1,8 @@
 import React from "react";
-import Header from "../utils/Header";
-import HeaderIntro from "../HeaderIntro";
-import Coding from "./BlogList/Coding";
+import Header from "../../utils/Header";
+import HeaderIntro from "../../HeaderIntro";
 
-export default function Blogs() {
+export default function Linux() {
   return (
     <div>
       <div className="container mt-5 ml-5 mr-5">
@@ -33,14 +32,16 @@ export default function Blogs() {
                       {/* add image here  */}
                       <img src="images/1095.jpg" />
                     </div>
-                    <div className="col-7 pt-3 coding-font" style={{ minWidth: "300px" }}>
+                    <div
+                      className="col-7 pt-3 coding-font"
+                      style={{ minWidth: "300px" }}
+                    >
                       {/* Text area  */}
 
-                      <h2 className="text-green style-h2">
-                        /blogs
-                      </h2>
+                      <h2 className="text-green style-h2">/blogs</h2>
+
                       <div style={{ fontSize: "large" }}>
-                        <p>Here are my  blogs</p>
+                        <p>linux is all about freedom</p>
                       </div>
                     </div>
                   </div>
@@ -74,44 +75,30 @@ export default function Blogs() {
                   <div className="my-1">
                     <div className="custom-border p-2">
                       <h3>
-                        Coding <span className="h6 text-green">Scares me alot</span>
+                        Linux <span className="h6 text-green">4 hours passed and windows is still updating...</span>
                       </h3>
                       <div style={{ fontSize: "medium" }}>
                         <p>
-                          <span className="bg-color-custom">I got scared</span>{" "}
-                          when i have to code something unknown,
-                          <span className="bg-color-custom">
-                            I got scared
-                          </span>{" "}
-                          when no one is coding in that language which is
-                          assigned to me,
-                          <span className="bg-color-custom">
-                            I got scared
-                          </span>{" "}
-                          when i get list of m0th€rf@king bugs in my project,
-                          and{" "}
-                          <span className="bg-color-custom">
-                            don't know hove to solve them
-                          </span>
-                          , And the greatest thing is that no one around my
-                          local scope is coding that thing.{" "}
-                          <span className="bg-color-custom">
-                            So i have to figure out the solution alone in any
-                            condition
-                          </span>{" "}
-                          otherwise i'm gonna fired. I got scared...
+                          After Using Linux, as a daily driver operating system
+                          i learned alot about what our machines are actually
+                          can do. What Freedom linux offers is a lot of power to
+                          do anything you want. customize it in any way you
+                          want. People's are customizing there whole operating
+                          system in f@king crazy manner. Wanna see{" "}
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/r/unixporn/"
+                          >
+                            click here
+                          </a>
+                          . I'll Bet after spending only 10 minuites watching
+                          unixporn you definately gonna fall in love with
+                          customization.
                         </p>
                         <p>
-                          But each time i find the right solution, the pleasure
-                          it gives me insane, Fixing bugs{" "}
-                          <span className="bg-color-custom">
-                            increases circulation of blood in my vains
-                          </span>
-                          , When i read documentation, scrape the internet and
-                          fix things{" "}
-                          <span className="bg-color-custom">
-                            it puts my confidence to f@king another level.
-                          </span>
+                          I also customized my Linux alot i used ubuntu, kali
+                          linux, pop-os, and the sexiest one Arch linux. (Using
+                          arch Btw)
                         </p>
                       </div>
                     </div>
@@ -119,7 +106,6 @@ export default function Blogs() {
                 </div>
               </div>
             </div>
-            {/* -------------------------------------------------------------------- */}
           </div>
         </div>
       </div>

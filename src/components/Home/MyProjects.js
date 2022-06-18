@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import Header from "../utils/Header";
+import HeaderIntro from "../HeaderIntro";
 import ChatBot from "./ProjectList/ChatBot";
 import Web from "./ProjectList/Web";
-import HeaderIntro from "../HeaderIntro";
 
 export default function MyProjects() {
-  const project_data = [
-    {app: <ChatBot />},
-    {app: <Web />},
-  ];
+  const project_data = [{ app: <ChatBot /> }, { app: <Web /> }];
 
   const [current, setCurrent] = useState(0);
   const length = project_data.length;
@@ -30,23 +27,13 @@ export default function MyProjects() {
       <div className="container mt-5 ml-5 mr-5">
         <div className="row">
           <div className="col-3 w-30 p-3 my-5" style={{ minWidth: "250px" }}>
-            {/* -------------------------------------------------------------------- */}
-            {/* -------------------------------------------------------------------- */}
-            {/* -------------------------------------------------------------------- */}
-            {/* -------------------------------------------------------------------- */}
-
             <Header />
-
-            {/* -------------------------------------------------------------------- */}
-            {/* -------------------------------------------------------------------- */}
-            {/* -------------------------------------------------------------------- */}
-            {/* -------------------------------------------------------------------- */}
           </div>
           {/* Body area  */}
           <div className="col-9" style={{ minWidth: "400px" }}>
             {/* -------------------------------------------------------------------- */}
             <div className="container">
-              <HeaderIntro/>
+              <HeaderIntro />
               <div className="col mx-auto py-5 custom-border">
                 <div className="container">
                   <div className="row">
@@ -60,10 +47,6 @@ export default function MyProjects() {
                       <h2 className="text-green coding-font style-h2">
                         /my-projects
                       </h2>
-                      {/* <p
-                          className="text-white coding-font"
-                          style={{ fontSize: "medium" }}
-    >Uploading soon</p>*/}
                       <p
                         className="text-white coding-font"
                         style={{ fontSize: "large" }}
@@ -98,61 +81,120 @@ export default function MyProjects() {
                       {/* <cite title="Source Title">Source Title</cite> */}
                     </footer>
                   </blockquote>
-                  <span className="custom-border p-2 my-2" style={{fontSize: 'large'}}><a href="#/my-projects">chatbot</a></span>
-                  <div className="my-1"><ChatBot /></div>
-                  
-
-                  {/* -------------------------------------------------------------------- */}
-                  {/* -------------------------------------------------------------------- */}
-                  {/* -------------------------------------------------------------------- */}
-                  {/* -------------------------------------------------------------------- */}
-
-                  {/* <section className='slider'>
-              <button className='left-arrow' onClick={prevSlide} />
-              <button className='right-arrow' onClick={nextSlide} />
-              {project_data.map((slide, index) => {
-                return (
-                  <div style={{display: "flex", border: "1px solid red"}}>
-{slide.app}
+                  <span
+                    className="custom-border p-2 my-2"
+                    style={{ fontSize: "large" }}
+                  >
+                    <a href="#/my-projects/chatbot">chatbot</a>
+                  </span>
+                  <span
+                    className="custom-border p-2 my-2"
+                    style={{ fontSize: "large" }}
+                  >
+                    <a href="#/my-projects/notflix">notflix</a>
+                  </span>
+                  <div className="my-1">
+                    <div className="custom-border p-2">
+                      <h3>
+                        1. ChatBot <span className="h6 text-green">Language - python</span>
+                      </h3>
+                      <div style={{ fontSize: "medium" }}>
+                        <p>
+                          Coding chatbot is the first big project of my life. It
+                          all start from watching Iron man's jarvis. He has
+                          pretty cool assistant and everyone wan't something
+                          like jarvis that why i start to code one.
+                        </p>
+                        <p>
+                          And it's also good for my resume too. I can take all
+                          of my small projects and put them into my new
+                          assistant like features. I started this project the
+                          end of my 1<sup>st</sup> year of college. It's{" "}
+                          <span className="bg-color-custom">2021</span>
+                        </p>
+                        <p>
+                          I start watching YouTube videos about virtual
+                          assistant with implementing them. Almost all of the
+                          YouTubers are writing a long{" "}
+                          <span className="bg-color-custom">
+                            if...then...else...
+                          </span>{" "}
+                          ladder something like{" "}
+                          <span className="bg-color-custom">if</span> i say play
+                          song <span className="bg-color-custom">then</span>{" "}
+                          play songs{" "}
+                          <span className="bg-color-custom">else</span> do
+                          nothing. You can see the full source code{" "}
+                          <a
+                            href="https://github.com/quickcodes/Grace/blob/main/same_code_without_NN.py"
+                            target="_blank"
+                          >
+                            click here.
+                          </a>
+                          I wrote more than 3000 lines of code. then is start
+                          optimizing code and fixing issues like what if someone
+                          say{" "}
+                          <span className="bg-color-custom">open youtube</span>{" "}
+                          or{" "}
+                          <span className="bg-color-custom">
+                            open youtube and play Trending songs
+                          </span>
+                          . Here Both starts with{" "}
+                          <span className="bg-color-custom">open youtube</span>{" "}
+                          but the action taken by the assistant have to be
+                          different. I start fixing lots of bug's errors and
+                          optimizing the code as much i can.
+                        </p>
+                        <p>
+                          Just Before my 1<sup>st</sup> year exams i end up with
+                          almost 1000 line of code. And a major thing i learned
+                          at that time is that you can find small and common
+                          things on youtube easily But when it commes to
+                          creating something for your own you have to{" "}
+                          <span className="bg-color-custom">
+                            build your own logic{" "}
+                          </span>
+                          . Mybe my code is just a peice of sh!ts in 2022 but
+                          it's my own.
+                        </p>
+                        <p>
+                          I never stop improving{" "}
+                          <span className="bg-color-custom">Grace.</span> Btw
+                          Grace is the name of my assistant even while my exams
+                          are running like what if we add power of maching
+                          learning, or what if we add this code into{" "}
+                          <span className="bg-color-custom">raspberry pi</span>{" "}
+                          and make soemting like alexa.
+                        </p>
+                        <p>
+                          After the end of my exams i start code again and
+                          starts re-designing the whole project because i want
+                          power of neural networks. So Grace can understand and
+                          relate human language more easily and effecitely. I
+                          start researching, implementing. I read lot of
+                          Documentations as i can. Did everything i can and
+                          after 1 year of progress I endup with my brand new
+                          Assistant which is{" "}
+                          <span className="bg-color-custom">
+                            now capable to understand human voice and can did
+                            Lot'ssssss of things now.
+                          </span>{" "}
+                          I wirte some features in my Github repo's readme.me
+                          file also
+                          <a
+                            href="https://github.com/quickcodes/Grace"
+                            target="_blank"
+                          >
+                            click here
+                          </a>{" "}
+                          to read them. You can also check full code also.
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  
-                );
-              })}
-            </section> */}
-
-                  <>
-                    {/* data = project_data.at(0).proj */}
-
-                    {/* <{project_data.at(0).proj}/> */}
-                  </>
-
-                  {/* -------------------------------------------------------------------- */}
-                  {/* -------------------------------------------------------------------- */}
-                  {/* -------------------------------------------------------------------- */}
-                  {/* -------------------------------------------------------------------- */}
                 </div>
-                {/* <p className="text-white  coding-font mt-2"
-                          style={{ fontSize: "medium" }}>
-                    What defines me is that i like to live a minimal life. where
-                    no continous blotted &amp; shity notifications are comming to
-                    my phone.
-                  </p>
-  
-                  <p className="text-white  coding-font"
-                          style={{ fontSize: "medium" }}>
-                    To give you a quick overview of subjects this site features
-                    now, or will feature in the future, here's a list of things I
-                    am interested in -
-                    <ul className="">
-                      <li>Linux Stuffs.</li>
-                      <li>Basic fundamentals of coding.</li>
-                      <li>Web and App Developement.</li>
-                      <li>Basics of DataBase.</li>
-                    </ul>
-                  </p> */}
               </div>
             </div>
-            {/* -------------------------------------------------------------------- */}
           </div>
         </div>
       </div>

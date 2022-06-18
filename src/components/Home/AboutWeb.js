@@ -39,7 +39,7 @@ export default function AboutWeb() {
                       style={{ minWidth: "300px" }}
                     >
                       {/* add image here  */}
-                      <img src="images/1192.jpg" />
+                      <img src="images/1169.jpg" />
                     </div>
                     <div
                       className="col-7 pt-3"
