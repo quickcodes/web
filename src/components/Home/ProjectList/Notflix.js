@@ -66,13 +66,13 @@ export default function Notflix() {
                     className="custom-border p-2 my-2 mx-1"
                     style={{ fontSize: "large" }}
                   >
-                    <a href="#/my-projects/#/chatbot">chatbot</a>
+                    <a href="#/my-projects/chatbot">/chatbot</a>
                   </span>
                   <span
                     className="custom-border p-2 my-2 mx-1"
                     style={{ fontSize: "large" }}
                   >
-                    <a href="#/my-projects/#/notflix">notflix</a>
+                    <a href="#/my-projects/notflix">/notflix</a>
                   </span>
                   <div className="my-1">
                     <div className="custom-border p-2">

@@ -63,16 +63,16 @@ export default function Coding() {
                   </blockquote>
 
                   <span
-                    className="custom-border p-2 my-2"
+                    className="custom-border p-2 my-2 mx-1"
                     style={{ fontSize: "large" }}
                   >
-                    <a href="#/blogs/coding">coding</a>
+                    <a href="#/blogs/coding">/coding</a>
                   </span>
                   <span
-                    className="custom-border p-2 my-2"
+                    className="custom-border p-2 my-2 mx-1"
                     style={{ fontSize: "large" }}
                   >
-                    <a href="#/blogs/linux">linux</a>
+                    <a href="#/blogs/linux">/linux</a>
                   </span>
 
                   <div className="my-1">
