@@ -16,6 +16,8 @@ import ChatBot from "./components/Home/ProjectList/ChatBot";
 import Notflix from "./components/Home/ProjectList/Notflix";
 import Coding from "./components/Home/BlogList/Coding";
 import Linux from "./components/Home/BlogList/Linux";
+import AttitudeIsEverything from "./components/projects/Books/AttitudeIsEverything";
+import DoEpicShit from "./components/projects/Books/DoEpicShit";
 
 export default function App() {
   return (
@@ -37,7 +39,8 @@ export default function App() {
         <Route path="my-projects/notflix" element={ <Notflix/> } />
 
         <Route path="books-quotes" element={ <BooksQuotes/> } />
-        <Route path="books-quotes/attitude-is-everything" element={ <BooksQuotes/> } />
+        <Route path="books-quotes/attitude-is-everything" element={ <AttitudeIsEverything/> } />
+        <Route path="books-quotes/do-epic-shit" element={ <DoEpicShit/> } />
 
 
         <Route path="blogs" element={ <Blogs/> } />

@@ -75,16 +75,25 @@ export default function Linux() {
                   <div className="my-1">
                     <div className="custom-border p-2">
                       <h3>
-                        Linux <span className="h6 text-green">4 hours passed and windows is still updating...</span>
+                        Linux{" "}
+                        <span className="h6 text-green">
+                          4 hours passed and windows is still updating...
+                        </span>
                       </h3>
                       <div style={{ fontSize: "medium" }}>
                         <p>
-                          After Using Linux, as a daily driver operating system
-                          i learned alot about what our machines are actually
-                          can do. What Freedom linux offers is a lot of power to
-                          do anything you want. customize it in any way you
-                          want. People's are customizing there whole operating
-                          system in f@king crazy manner. Wanna see{" "}
+                          After Using Linux, as a daily driver operating system{" "}
+                          <span className="bg-color-custom">
+                            i learned alot about what our machines are actually
+                            can do.
+                          </span>{" "}
+                          What Freedom linux offers is a lot of power to do
+                          anything you want. customize it in any way you want.
+                          People's are customizing there{" "}
+                          <span className="bg-color-custom">
+                            whole operating system
+                          </span>{" "}
+                          in f@king crazy manner. Wanna see{" "}
                           <a
                             target="_blank"
                             href="https://www.reddit.com/r/unixporn/"
@@ -92,13 +101,24 @@ export default function Linux() {
                             click here
                           </a>
                           . I'll Bet after spending only 10 minuites watching
-                          unixporn you definately gonna fall in love with
-                          customization.
+                          unixporn you{" "}
+                          <span className="bg-color-custom">
+                            definately gonna fall in love{" "}
+                          </span>
+                          with customization.
                         </p>
                         <p>
-                          I also customized my Linux alot i used ubuntu, kali
-                          linux, pop-os, and the sexiest one Arch linux. (Using
-                          arch Btw)
+                          I also customized my Linux alot, I used various
+                          distributions like ubuntu, kali linux{" "}
+                          <span className="text-green">
+                            (Noobs call it hacking distro)
+                          </span>
+                          , pop-os, and the{" "}
+                          <span className="bg-color-custom">sexiest one Arch</span> and Inside arch Linux
+                          i used varioud window managers like KDE plasma 5, gnome, etc...
+                        </p>
+                        <p>
+                            
                         </p>
                       </div>
                     </div>

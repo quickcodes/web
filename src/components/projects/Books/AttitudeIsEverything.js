@@ -1,18 +1,9 @@
 import React from "react";
-import Header from "../utils/Header";
-import HeaderIntro from "../HeaderIntro";
+import Header from "../../utils/Header";
+import HeaderIntro from "../../HeaderIntro";
 // import Coding from "./BlogList/Coding";
 
-
-
-
-
-// things i added today: routes, projects(chatbot, notflix), books(attitude is everything, do epic shit), blogs(coding, linux)
-
-
-
-
-export default function BooksQuotes() {
+export default function AttitudeIsEverything() {
   return (
     <div>
       <div className="container mt-5 ml-5 mr-5">

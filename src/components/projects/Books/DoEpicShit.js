@@ -1,18 +1,9 @@
 import React from "react";
-import Header from "../utils/Header";
-import HeaderIntro from "../HeaderIntro";
+import Header from "../../utils/Header";
+import HeaderIntro from "../../HeaderIntro";
 // import Coding from "./BlogList/Coding";
 
-
-
-
-
-// things i added today: routes, projects(chatbot, notflix), books(attitude is everything, do epic shit), blogs(coding, linux)
-
-
-
-
-export default function BooksQuotes() {
+export default function DoEpicShit() {
   return (
     <div>
       <div className="container mt-5 ml-5 mr-5">
@@ -24,7 +15,7 @@ export default function BooksQuotes() {
           <div className="col-9" style={{ minWidth: "400px" }}>
             {/* -------------------------------------------------------------------- */}
             <div className="container">
-                <HeaderIntro/>
+              <HeaderIntro />
               <div className="col mx-auto py-5 custom-border">
                 <div className="container">
                   <div className="row">
@@ -42,7 +33,8 @@ export default function BooksQuotes() {
                         className="text-white coding-font"
                         style={{ fontSize: "large" }}
                       >
-                        A fine quotation is a diamond on the finger fo a man of wit, and a pebble in the hand of fool.
+                        A fine quotation is a diamond on the finger fo a man of
+                        wit, and a pebble in the hand of fool.
                       </p>
                       {/* <p
                         className="text-white coding-font"
@@ -74,112 +66,133 @@ export default function BooksQuotes() {
                 <div className="coding-font text-white mt-2">
                   <h1 className="text-green">print([Books].Quotes);</h1>
 
-
                   <div className="mb-3">
-                  <span
-                    className="custom-border p-2 my-2 mx-1"
-                    style={{ fontSize: "large" }}
-                  >
-                    <a href="#/books-quotes/attitude-is-everything">/attitude-is-everything</a>
-                  </span>
-                  <span
-                    className="custom-border p-2 my-2 mx-1"
-                    style={{ fontSize: "large" }}
-                  >
-                    <a href="#/books-quotes/do-epic-shit">/do-epic-shit</a>
-                  </span>
+                    <span
+                      className="custom-border p-2 my-2 mx-1"
+                      style={{ fontSize: "large" }}
+                    >
+                      <a href="#/books-quotes/attitude-is-everything">
+                        /attitude-is-everything
+                      </a>
+                    </span>
+                    <span
+                      className="custom-border p-2 my-2 mx-1"
+                      style={{ fontSize: "large" }}
+                    >
+                      <a href="#/books-quotes/do-epic-shit">/do-epic-shit</a>
+                    </span>
                   </div>
 
                   <div>
                     <blockquote class="blockquote">
-                      <p class="mb-0">Book: <span className="bg-color-custom">Attitude is Everything</span></p>
+                      <p class="mb-0">
+                        Book:{" "}
+                        <span className="bg-color-custom">Do Epic Shit</span>
+                      </p>
                       <footer class="blockquote-footer">
-                        Jeff keller{" "}
+                        Ankur Warikoo{" "}
                         {/* <cite title="Source Title">Source Title</cite> */}
                       </footer>
                     </blockquote>
 
                     <div style={{ fontSize: "medium" }}>
                       <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
+                      The first few episodes of the Netflix series maybe boring. However, you still keep watching the series. It turns out, a friend told you to stay at it because it gets interesting eventually.
+What if we treat our goals and our journey in the same way?
                       </p>
-                      {/* <p className="custom-border p-2">
-                        You see, when you change your attitude, sparks fly in
-                        the universe. You’re energized. You begin to see new
-                        possibilities. You move into action. You achieve
-                        extraordinary results. That’s why I say when you change
-                        your attitude, you change your life!
-                      </p> */}
                       <p className="custom-border p-2">
-                      Words are, of course, the most powerful drug used by mankind. — Rudyard Kipling
+                      Don’t measure how valuable you are by the way you are treated.
                       </p>
 
-                      <p className="custom-border p-2">
-                      A happy person is not a person in a certain set of circumstances, but rather a person with a certain set of attitudes.
+                      <p className="custom-border p-2">When you say you have five years of experience, is it five years of experience or one year of experience done five times over?
+                      </p>
+                      <p className="custom-border p-2">It’s okay to ask questions.
+It’s okay to be genuinely curious to know more.
+It’s more than okay to ask even if others would think it is ‘dumb’.
+                      </p>
+                      <p className="custom-border p-2">Your goal is to make people say: ‘I am not sure if she knows how to do it. But I am certain if told to do it, she will definitely figure it out. I trust her.’
+                      </p>
+                      <p className="custom-border p-2">The awards are never for us.
+They are for the positions we hold.
+                      </p>
+                      <p className="custom-border p-2">Waking up early fizzles out, sleeping on time is what flourishes.
+                      </p>
+                      {/* <p className="custom-border p-2">
+                        The greatest discovery of my generation is that human
+                        beings can alter their lives by altering their attitudes
+                        of mind. - William James
                       </p>
                       <p className="custom-border p-2">
-                      Life doesn’t reward those who refuse to expose themselves to difficulties and challenges.
+                        Just remember the words of Napoleon Hill: “Every
+                        adversity carries with it the seed of an equivalent or
+                        greater benefit.
                       </p>
                       <p className="custom-border p-2">
-                      Nurture your mind with great thoughts. — Benjamin Disraeli
+                        Your self-esteem is lowered. You feel powerless and
+                        frustrated. You sabotage your success. You lead an
+                        uneventful, boring life.
                       </p>
                       <p className="custom-border p-2">
-                      What the mind can conceive and believe, the mind can achieve.
+                        When you believe you can do something, you have the
+                        courage to move forward despite being afraid.
                       </p>
                       <p className="custom-border p-2">
-                      your thoughts don’t change, your results won’t change.
+                        learning how to ride your bike? Well, persistence and
+                        sheer repetition, certainly. You were going to stick
+                        with it no matter how long it took! It also helped that
+                        you were enthusiastic about what you set out to
+                        achieve—that you could hardly wait to reach your goal.
+                        And finally, let’s not underestimate the impact of
+                        positive encouragement. You always knew your parents
+                        were in your corner, supporting you, rooting for your
+                        success.
                       </p>
                       <p className="custom-border p-2">
-                      The greatest discovery of my generation is that human beings can alter their lives by altering their attitudes of mind. - William James
+                        As adults, most of us become a lot more concerned about
+                        the opinions of others, often hesitating because people
+                        may laugh at us or criticize us. At the age of six, we
+                        knew we had to fall
                       </p>
                       <p className="custom-border p-2">
-                      Just remember the words of Napoleon Hill: “Every adversity carries with it the seed of an equivalent or greater benefit.
+                        Success is going from failure to failure without loss of
+                        enthusiasm.
                       </p>
                       <p className="custom-border p-2">
-                      Your self-esteem is lowered. You feel powerless and frustrated. You sabotage your success. You lead an uneventful, boring life.
+                        Getters don’t get — givers get. — Eugene Benge
                       </p>
                       <p className="custom-border p-2">
-                      When you believe you can do something, you have the courage to move forward despite being afraid.
+                        Whether you think you can—or think you can’t—you’re
+                        right! — HENRY FORD”“WE BECOME WHAT WE THINK ABOUT
                       </p>
                       <p className="custom-border p-2">
-                      learning how to ride your bike? Well, persistence and sheer repetition, certainly. You were going to stick with it no matter how long it took! It also helped that you were enthusiastic about what you set out to achieve—that you could hardly wait to reach your goal. And finally, let’s not underestimate the impact of positive encouragement. You always knew your parents were in your corner, supporting you, rooting for your success.
+                        A man is what he thinks about all day long.
                       </p>
                       <p className="custom-border p-2">
-                      As adults, most of us become a lot more concerned about the opinions of others, often hesitating because people may laugh at us or criticize us. At the age of six, we knew we had to fall
+                        There is nothing on earth you cannot have—once you have
+                        mentally accepted the fact that you can have it.
                       </p>
                       <p className="custom-border p-2">
-                      Success is going from failure to failure without loss of enthusiasm.
+                        The idea that we become what we think about has also
+                        been expressed as the Law of Dominant Thought.
                       </p>
                       <p className="custom-border p-2">
-                      Getters don’t get — givers get. — Eugene Benge
+                        They can because they think they can. — Virgil
                       </p>
                       <p className="custom-border p-2">
-                      Whether you think you can—or think you can’t—you’re right! — HENRY FORD”“WE BECOME WHAT WE THINK ABOUT
+                        Thought precedes action.
                       </p>
                       <p className="custom-border p-2">
-                      A man is what he thinks about all day long.
+                        Your Circumstances Reflect What You’ve Been Thinking
+                        About
                       </p>
                       <p className="custom-border p-2">
-                      There is nothing on earth you cannot have—once you have mentally accepted the fact that you can have it.
+                        Success is a state of mind. If you want success, start
+                        thinking of yourself as a success. — DR. JOYCE BROTHERS
                       </p>
                       <p className="custom-border p-2">
-                      The idea that we become what we think about has also been expressed as the Law of Dominant Thought.
-                      </p>
-                      <p className="custom-border p-2">
-                      They can because they think they can. — Virgil
-                      </p>
-                      <p className="custom-border p-2">
-                      Thought precedes action.
-                      </p>
-                      <p className="custom-border p-2">
-                      Your Circumstances Reflect What You’ve Been Thinking About
-                      </p>
-                      <p className="custom-border p-2">
-                      Success is a state of mind. If you want success, start thinking of yourself as a success. — DR. JOYCE BROTHERS
-                      </p>
-                      <p className="custom-border p-2">
-                      It is a rough road that leads to the heights of greatness. — Seneca
-                      </p>
+                        It is a rough road that leads to the heights of
+                        greatness. — Seneca
+                      </p> */}
                       {/* <p className="custom-border p-2">
                         IF YOU CAN DREAM IT, YOU CAN DO IT!
                       </p>
