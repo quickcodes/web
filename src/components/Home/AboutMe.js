@@ -93,6 +93,9 @@ export default function AboutMe() {
                     <li>Basic fundamentals of coding.</li>
                     <li>Web and App Developement.</li>
                     <li>Basics of DataBase.</li>
+                    <li>Self help Books And Quotes.</li>
+                    <li>Blogs.</li>
+                    <li>If you have another cool idea contact me <span className="text-green">dhruvcodes7220@gmail.com</span>.</li>
                   </ul>
                 </p>
               </div>
