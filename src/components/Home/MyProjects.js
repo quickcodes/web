@@ -93,7 +93,7 @@ export default function MyProjects() {
                   >
                     <a href="#/my-projects/notflix">/notflix</a>
                   </span>
-                  <div className="my-1">
+                  {/* <div className="my-1">
                     <div className="custom-border p-2">
                       <h3>
                         1. ChatBot <span className="h6 text-green">Language - python</span>
@@ -191,7 +191,7 @@ export default function MyProjects() {
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -71,7 +71,7 @@ export default function Blogs() {
                     <a href="#/blogs/linux">/linux</a>
                   </span>
 
-                  <div className="my-1">
+                  {/* <div className="my-1">
                     <div className="custom-border p-2">
                       <h3>
                         Coding <span className="h6 text-green">Scares me alot</span>
@@ -115,7 +115,7 @@ export default function Blogs() {
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

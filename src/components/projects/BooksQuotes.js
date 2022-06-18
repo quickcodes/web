@@ -75,7 +75,7 @@ export default function BooksQuotes() {
                   <h1 className="text-green">print([Books].Quotes);</h1>
 
 
-                  <div className="mb-3">
+                  <div className="my-3">
                   <span
                     className="custom-border p-2 my-2 mx-1"
                     style={{ fontSize: "large" }}
@@ -90,12 +90,11 @@ export default function BooksQuotes() {
                   </span>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <blockquote class="blockquote">
                       <p class="mb-0">Book: <span className="bg-color-custom">Attitude is Everything</span></p>
                       <footer class="blockquote-footer">
                         Jeff keller{" "}
-                        {/* <cite title="Source Title">Source Title</cite> */}
                       </footer>
                     </blockquote>
 
@@ -103,13 +102,6 @@ export default function BooksQuotes() {
                       <p className="custom-border p-2">
                         IF YOU CAN DREAM IT, YOU CAN DO IT!
                       </p>
-                      {/* <p className="custom-border p-2">
-                        You see, when you change your attitude, sparks fly in
-                        the universe. You’re energized. You begin to see new
-                        possibilities. You move into action. You achieve
-                        extraordinary results. That’s why I say when you change
-                        your attitude, you change your life!
-                      </p> */}
                       <p className="custom-border p-2">
                       Words are, of course, the most powerful drug used by mankind. — Rudyard Kipling
                       </p>
@@ -180,101 +172,8 @@ export default function BooksQuotes() {
                       <p className="custom-border p-2">
                       It is a rough road that leads to the heights of greatness. — Seneca
                       </p>
-                      {/* <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p>
-                      <p className="custom-border p-2">
-                        IF YOU CAN DREAM IT, YOU CAN DO IT!
-                      </p> */}
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
