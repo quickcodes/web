@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../utils/Header";
 import HeaderIntro from "../HeaderIntro";
 import Coding from "./BlogList/Coding";
+import BlogRoutes from "./BlogList/BlogRoutes"
 
 export default function Blogs() {
   return (
@@ -58,7 +59,9 @@ export default function Blogs() {
                     <footer class="blockquote-footer">yung pueblo </footer>
                   </blockquote>
 
-                  <span
+                  <BlogRoutes />
+
+                  {/* <span
                     className="custom-border p-2 my-2 mx-1"
                     style={{ fontSize: "large" }}
                   >
@@ -69,7 +72,7 @@ export default function Blogs() {
                     style={{ fontSize: "large" }}
                   >
                     <a href="#/blogs/linux">/linux</a>
-                  </span>
+                  </span> */}
 
                   {/* <div className="my-1">
                     <div className="custom-border p-2">
