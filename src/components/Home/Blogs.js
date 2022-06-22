@@ -41,7 +41,7 @@ export default function Blogs() {
                         /blogs
                       </h2>
                       <div style={{ fontSize: "large" }}>
-                        <p>Here are my  blogs</p>
+                        <p>Here are my blogs</p>
                       </div>
                     </div>
                   </div>
