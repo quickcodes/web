@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../utils/Header";
 import HeaderIntro from "../../HeaderIntro";
+import BlogRoutes from './BlogRoutes'
 
 export default function Linux() {
   return (
@@ -59,6 +60,9 @@ export default function Linux() {
                     <footer class="blockquote-footer">yung pueblo </footer>
                   </blockquote>
 
+                  <BlogRoutes/>
+
+                  {/* 
                   <span
                     className="custom-border p-2 my-2 mx-1"
                     style={{ fontSize: "large" }}
@@ -70,7 +74,7 @@ export default function Linux() {
                     style={{ fontSize: "large" }}
                   >
                     <a href="#/blogs/linux">/linux</a>
-                  </span>
+                  </span> */}
 
                   <div className="my-1">
                     <div className="custom-border p-2">
