@@ -19,6 +19,7 @@ import Linux from "./components/Home/BlogList/Linux";
 import AttitudeIsEverything from "./components/projects/Books/AttitudeIsEverything";
 import DoEpicShit from "./components/projects/Books/DoEpicShit";
 import CodingIsEasy from "./components/Home/BlogList/CodingIsEasy";
+import CantHurtMe from "./components/projects/Books/CantHurtMe";
 
 export default function App() {
   return (
@@ -42,6 +43,7 @@ export default function App() {
         <Route path="books-quotes" element={ <BooksQuotes/> } />
         <Route path="books-quotes/attitude-is-everything" element={ <AttitudeIsEverything/> } />
         <Route path="books-quotes/do-epic-shit" element={ <DoEpicShit/> } />
+        <Route path="books-quotes/cant-hurt-me" element={ <CantHurtMe/> } />
 
 
         <Route path="blogs" element={ <Blogs/> } />

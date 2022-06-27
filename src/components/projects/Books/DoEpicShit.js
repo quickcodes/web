@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../utils/Header";
 import HeaderIntro from "../../HeaderIntro";
 // import Coding from "./BlogList/Coding";
+import BookRoutes from "./BookRoutes";
 
 export default function DoEpicShit() {
   return (
@@ -64,24 +65,10 @@ export default function DoEpicShit() {
                 {/* oter text  */}
                 {/* oter text  */}
                 <div className="coding-font text-white mt-2">
-                  <h1 className="text-green">print([Books].Quotes);</h1>
+                  <p className="text-green h4 my-3">print([Books].Quotes);</p>
 
-                  <div className="mb-3">
-                    <span
-                      className="custom-border p-2 my-2 mx-1"
-                      style={{ fontSize: "large" }}
-                    >
-                      <a href="#/books-quotes/attitude-is-everything">
-                        /attitude-is-everything
-                      </a>
-                    </span>
-                    <span
-                      className="custom-border p-2 my-2 mx-1"
-                      style={{ fontSize: "large" }}
-                    >
-                      <a href="#/books-quotes/do-epic-shit">/do-epic-shit</a>
-                    </span>
-                  </div>
+
+                  <BookRoutes />
 
                   <div>
                     <blockquote class="blockquote">

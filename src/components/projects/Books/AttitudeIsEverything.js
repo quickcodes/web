@@ -63,7 +63,7 @@ export default function AttitudeIsEverything() {
                 {/* oter text  */}
                 {/* oter text  */}
                 <div className="coding-font text-white mt-2">
-                  <h1 className="text-green">print([Books].Quotes);</h1>
+                  <p className="text-green h4 my-3">print([Books].Quotes);</p>
 
 
                   <div className="mb-3">
