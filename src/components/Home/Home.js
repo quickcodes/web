@@ -71,7 +71,7 @@ export default function Home() {
                         improving my skills of putting them into writing. I
                         choose to build a website for this because of the{" "}
                         <span className="bg-color-custom">freedom</span> that a
-                        personal webpage offers.
+                        personal webpage offers.  
                       </p>
                     </div>
                   </div>
