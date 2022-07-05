@@ -1,5 +1,6 @@
 # [Website is Live Click Here](http://dhruvcodes.me/web)
 
+### To deploy - '`npm run deploy`
 
 ![Screenshot from 2022-06-13 15-26-55](https://user-images.githubusercontent.com/81878722/173329650-1704d2f1-2205-4960-924b-7e61c945046a.png)
 

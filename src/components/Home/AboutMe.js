@@ -96,6 +96,7 @@ export default function AboutMe() {
                     <li>Self help Books And Quotes.</li>
                     <li>Blogs.</li>
                     <li>If you have another cool idea contact me <span className="text-green">dhruvcodes7220@gmail.com</span>.</li>
+                    <li>You can also donate!</li>
                   </ul>
                 </p>
               </div>
